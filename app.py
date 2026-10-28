@@ -5,7 +5,7 @@ import google.generativeai as genai
 import streamlit as st
 
 # ---------- SETTINGS (change these if needed) ----------
-MODEL_NAME = "gemini-2.0-flash"  # use the same model name as your ATS app if different
+MODEL_NAME = "gemini-3.8-flash"  # use the same model name as your ATS app if different
 SECRET = "BLUEFALCON-42"
 
 WEAK_PROMPT = f"""You are a helpful assistant for AcmeBank.
